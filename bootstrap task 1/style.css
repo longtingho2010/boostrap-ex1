@@ -1,0 +1,156 @@
+body{
+	font-family: Hanken Grotesk;
+	font-size: 18px;
+}
+
+.container{
+ margin: 100px auto;
+
+}
+
+.column{
+/*	border: 2px red solid;*/
+	border-radius: 30px;
+}
+
+
+/*********************LEFT***************/
+.left{
+	background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+	color: White;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 10px;
+	text-align: center;
+}
+
+h5{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.circle{
+/*	border: 1px white solid;*/
+	border-radius: 50%;
+	background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+	width: 120px;
+	height: 120px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+
+.circle p{
+	margin: 0;
+}
+
+.score{
+	font-size: 52px;
+	line-height: 50px;
+	font-weight: 800;
+}
+
+.small{
+	font-size: 15px;
+}
+
+
+/*********************RIGHT***************/
+.right{
+	color: black;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 10px;
+	box-shadow: rgba(0,0,0,0.1) 0px 10px 30px 10px;
+}
+
+h2{
+	align-self: flex-start;
+	font-weight: 800;
+}
+
+
+.block{
+	border: 1px black solid;
+	border-radius: 10px;
+	height: 45px;
+	width: 400px;
+	margin: 7px 0;
+	display: flex;
+	align-items: center;
+}
+
+ul{
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+}
+
+li{
+	margin: 0;
+}
+
+.block img{
+	padding-left: 10px;
+	padding-right: 5px;
+}
+
+.push{
+	margin-right: auto;
+}
+
+.reaction{
+	background-color: hsla(0, 100%, 67%, 0.06);
+	color: hsl(0, 100%, 67%);
+	border-color: hsla(0, 100%, 67%, 0.06);
+}
+
+.memory{
+	background-color: hsl(39, 100%, 56%, 0.05);
+	color: hsl(39, 100%, 56%);
+	border-color: hsl(39, 100%, 56%, 0.05);
+}
+
+.verbal{
+	background-color: hsla(166, 100%, 37%, 0.045);
+	color: hsl(166, 100%, 37%);
+	border-color: hsla(166, 100%, 37%, 0.045);
+}
+
+.visual{
+	background-color: hsl(234, 85%, 45%, 0.07);
+	color: hsl(234, 85%, 45%);
+	border-color: hsl(234, 85%, 45%, 0.07);
+}
+
+.btn-primary{
+	background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+	border-color: hsl(252, 100%, 67%);
+	border-radius: 30px;
+	width: 400px;
+	margin-top: 30px;
+	font-weight: 700;
+	height: 45px;
+}
+
+.black{
+	color: black;
+	font-weight: 800;
+}
+
+.grey{
+	color: grey;
+	font-weight: 650;
+}
+
+.black , .grey{
+	padding: 2px;
+}
+
+.padding-right{
+	padding-right: 15px;
+}
